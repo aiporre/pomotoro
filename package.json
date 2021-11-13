@@ -1,0 +1,26 @@
+{
+  "name": "pomotoro",
+  "version": "0.0.1",
+  "description": "Todo List managed with pomodoros that implements the pomodoro techniques",
+  "main": "dapp.js",
+  "private": true,
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Todo",
+    "list",
+    "manager"
+  ],
+  "author": "Arie Iporre",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "menubar": "^9.1.0",
+    "yarn": "^1.22.17"
+  },
+  "devDependencies": {
+    "electron": "^15.3.1"
+  }
+}
